@@ -12,6 +12,8 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.3",
+    "@nuxtjs/color-mode": "^3.3.2",
+    "@nuxtjs/tailwindcss": "^6.10.4",
     "eslint": "npm:eslint-ts-patch@^8.56.0-0",
     "nuxt": "^3.9.3",
     "vue": "^3.4.14",
