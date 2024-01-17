@@ -1,6 +1,8 @@
 import type { Config } from 'tailwindcss'
+import { getIconCollections, iconsPlugin } from '@egoist/tailwindcss-icons'
 
-export default {
+export default <Partial<Config>> {
+  darkMode: 'class',
   content: [
     './components/**/*.{js,vue,ts}',
     './layouts/**/*.vue',
@@ -12,5 +14,9 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
-} satisfies Config
+  plugins: [
+    iconsPlugin({
+      collections: getIconCollections(['mdi', 'lucide', 'ph']),
+    }),
+  ],
+}

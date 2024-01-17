@@ -12,6 +12,10 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.3",
+    "@egoist/tailwindcss-icons": "^1.7.2",
+    "@iconify-json/lucide": "^1.1.155",
+    "@iconify-json/mdi": "^1.1.64",
+    "@iconify-json/ph": "^1.1.10",
     "@nuxtjs/color-mode": "^3.3.2",
     "@nuxtjs/tailwindcss": "^6.10.4",
     "eslint": "npm:eslint-ts-patch@^8.56.0-0",
